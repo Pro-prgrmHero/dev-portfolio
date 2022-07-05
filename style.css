@@ -5,11 +5,17 @@ body{
 h1{
     font-size: 415%;
 }
+.para1n2{
+    padding-right: 125px;
+    font-weight: 598;
+    color: rgba(116, 116, 116, 0.973);
+}
 .orange-color{
     color: orange;
 }
 section{
     display: flex;
+    margin-bottom: 200px;
 }
 .half-width{
     width: 50%;
@@ -27,7 +33,14 @@ section{
     padding: 10px 40px;
     border-radius: 5px;
 }
-.top-banner{
-    background-image: url(images/top-banner.png);
+.dream-big{
+    background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
+    background-position: right;
 }
+/* .middle-banner{
+    margin-right: 500px;
+}
+.middle-banner img{
+    width: 50%;
+} */
