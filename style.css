@@ -5,7 +5,10 @@ body{
 h1{
     font-size: 415%;
 }
-.para1n2{
+h2{
+    font-size: 278%;
+}
+.para-all{
     padding-right: 125px;
     font-weight: 598;
     color: rgba(116, 116, 116, 0.973);
@@ -41,6 +44,28 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0px 150px;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 35px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+#fullstack-web-dev{
+    border-left: 7px solid tomato;
+}
+#baby-web-dev{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
 }
 /* .middle-banner{
     margin-right: 500px;
